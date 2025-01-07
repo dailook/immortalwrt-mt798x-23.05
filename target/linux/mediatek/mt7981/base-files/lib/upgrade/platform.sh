@@ -207,6 +207,7 @@ platform_do_upgrade() {
 	cmcc,rax3000m |\
         cmcc,rax3000me |\
 	cmcc,xr30 |\
+        *gielink,g33pro* |\
 	h3c,nx30pro |\
 	*konka,komi-a31* |\
         *kst,wf3000a* |\
@@ -264,6 +265,7 @@ platform_check_image() {
 	cmcc,rax3000m* |\
         cmcc,rax3000me |\
 	cmcc,xr30 |\
+        *gielink,g33pro* |\
 	h3c,nx30pro |\
 	*konka,komi-a31* |\
         *kst,wf3000a* |\
