@@ -754,6 +754,7 @@ setup_model()
 	cmcc,a10* |\
  	*e-life,etr631-t* |\
 	*e-life,etr635-u* |\
+        *gielink,g33pro* |\
 	xiaomi,mi-router-wr30u* |\
 	xiaomi,mi-router-ax3000t* |\
 	*rax3000m* |\
