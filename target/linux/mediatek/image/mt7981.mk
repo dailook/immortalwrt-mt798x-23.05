@@ -727,3 +727,20 @@ define Device/e-life_etr635-u
   IMAGE/sysupgrade.bin := sysupgrade-tar | append-metadata
 endef
 TARGET_DEVICES += e-life_etr635-u
+
+define Device/gielink_g33pro
+  DEVICE_VENDOR := GIELINK
+  DEVICE_MODEL := G33PRO blue wan versions
+  DEVICE_DTS := mt7981-gielink-g33pro
+  DEVICE_DTS_DIR := $(DTS_DIR)/mediatek
+  SUPPORTED_DEVICES := gielink,g33pro
+  UBINIZE_OPTS := -E 5
+  BLOCKSIZE := 128k
+  PAGESIZE := 2048
+  IMAGE_SIZE := 116736k
+  KERNEL_IN_UBI := 1
+  IMAGES += factory.bin
+  IMAGE/factory.bin := append-ubi | check-size $$$$(IMAGE_SIZE)
+  IMAGE/sysupgrade.bin := sysupgrade-tar | append-metadata
+endef
+TARGET_DEVICES += gielink_g33pro
