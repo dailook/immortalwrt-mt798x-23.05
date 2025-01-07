@@ -51,8 +51,8 @@
                                 gpios = <&pio 1 GPIO_ACTIVE_LOW>;
                         };
 
-                        button-mesh {
-                                label = "mesh";
+                        button-wps {
+                                label = "wps";
                                 linux,code = <KEY_POWER>;
                                 gpios = <&pio 0 GPIO_ACTIVE_LOW>;
                         };
