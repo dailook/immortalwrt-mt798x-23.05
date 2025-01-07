@@ -126,6 +126,7 @@ jdcloud,re-cp-03)
 	ubootenv_add_uci_config "$envdev" "0x0" "0x40000" "0x40000" "1"
 	ubootenv_add_uci_config "$envdev" "0x40000" "0x40000" "0x40000" "1"
 	;;
+gielink,g33pro|\
 livinet,zr-3020|\
 livinet,zr-3020-ubootmod|\
 qihoo,360t7-ubootmod)
