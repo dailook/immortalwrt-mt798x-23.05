@@ -210,6 +210,7 @@ platform_do_upgrade() {
         *gielink,g33pro* |\
 	h3c,nx30pro |\
 	*konka,komi-a31* |\
+        *kjd,kj30-n* |\
         *kst,wf3000a* |\
 	*nokia,ea0326gmp* |\
         *newland,nl-wr8103* |\
@@ -268,6 +269,7 @@ platform_check_image() {
         *gielink,g33pro* |\
 	h3c,nx30pro |\
 	*konka,komi-a31* |\
+        *kjd,kj30-n* |\
         *kst,wf3000a* |\
 	nradio,wt9103 |\
 	*nokia,ea0326gmp* |\
