@@ -71,6 +71,7 @@ bananapi,bpi-r3-mini)
 	;;
 cmcc,xr30|\
 cmcc,rax3000me|\
+kjd,kj30-n|\
 *kst,wf3000a*|\
 cetron,ct3003-stock|\
 cetron,ct3003-ubootmod|\
