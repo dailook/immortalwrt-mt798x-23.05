@@ -761,6 +761,7 @@ setup_model()
         *cmcc,xr30* |\
 	h3c,nx30pro |\
 	konka,komi-a31 |\
+        *kjd,kj30-n* |\
         *kst,wf3000a* |\
 	*nokia,ea0326gmp* |\
         *newland,nl-wr8103* |\
